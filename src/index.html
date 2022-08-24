@@ -10,6 +10,32 @@
 </head>
 
 <body>
+    <form action="/" class="add-book-form" method="POST">
+        <ul>
+            <li>
+                <label for="title">Title:</label>
+                <input type="text" id="title">
+            </li>
+            <li>
+                <label for="author">Author:</label>
+                <input type="text" id="author">
+            </li>
+            <li>
+                <label for="pages">Pages:</label>
+                <input type="number" id="pages">
+            </li>
+            <li>
+                <label>Completed?</label>
+
+                <label for="yes">yes</label>
+                <input type="radio" id="yes" value="yes" name="completed">
+                <label for="no">no</label>
+                <input type="radio" id="no" value="no" name="completed">
+
+            </li>
+        </ul>
+
+    </form>
     <ul class="library"></ul>
 
 </body>
