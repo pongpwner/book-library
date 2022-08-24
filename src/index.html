@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="/" class="add-book-form" method="POST">
+    <form action="/" class="book-form" method="POST">
         <ul>
             <li>
                 <label for="title">Title:</label>
@@ -30,12 +30,15 @@
                 <label for="yes">yes</label>
                 <input type="radio" id="yes" value="yes" name="completed">
                 <label for="no">no</label>
-                <input type="radio" id="no" value="no" name="completed">
+                <input checked type="radio" id="no" value="no" name="completed">
 
             </li>
-        </ul>
 
+        </ul>
+        <button class="add-book-button" type="button">Add Book</button>
     </form>
+
+
     <ul class="library"></ul>
 
 </body>
